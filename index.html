@@ -3,21 +3,132 @@
 <head>
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 <body>
-    <nav>
-        <!-- <div class="nav__container"> -->
-            <h2 class="logo"> amog<span>o</span>e</h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Support</a></li>
-            </ul>
-        <!-- </div> -->
-    </nav>
-    
+    <div class="scroll">
+        
+        <nav >
+            <!-- <div class="nav__container"> -->
+                <h2 class="logo"> amog<span>o</span>e</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            <!-- </div> -->
+        </nav>
+        <header class="section" id="home"> 
+            <div class="head_content">
+                <h1>Hello,  I'm <br>a Front end Developer </h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas assumenda cumque laudantium autem reprehenderit neque molestias ipsam .</p>
+                <a>Creator Journey</a>
+            </div>
+            <div class="navigator">
+                <a class= "selected circle" href="#home"></a>
+                <div class="line"></div>
+                <a class= "circle" href="#skills"></a>
+                <div class="line"></div>
+                <a class = "circle" href="#contact"></a>
+            </div>
+        </header>
+        <section id="skills" class="section">
+                <div class="top">
+                    <h5>Services</h5>
+                    <h1>Skill-Set</h1>
+                    <div class="skill_line"></div>
+                </div>
+                <div class="bottom">
+                    <div class="boxes">
+                        <div class="box skill_1" >
+                            <span class="icon">
+
+                                <i class="fa-brands fa-github fa-2xl" style="color: #ff0000;"></i>
+                            </span>
+                            <div>
+                                <h5>Git Version Control</h5>
+                                <p>Git is a distributed version control system that enables multiple developers to collaborate on projects efficiently. It tracks changes in source code, allowing for easy branching, merging, and version history management.</p>
+                            </div>
+                        </div>
+                        <div class="box skill_2">
+                            <span class="icon">
+
+                                <i class="fa-solid fa-mobile fa-2xl" style="color: #d42a2a;"></i>
+                            </span>
+                            <div>
+
+                                <h5>App Design</h5>
+                                <p>App design involves creating intuitive user interfaces and seamless user experiences to enhance usability and engagement. It balances aesthetics with functionality to ensure that the app meets user needs effectively.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="box skill_3">
+                            <span class="icon">
+                                <i class="fa-solid fa-database fa-2xl" style="color:  #d42a2a;"></i>
+                            </span>
+                            <div>
+                                <h5>Back-end Developement</h5>
+                                <p>Backend development handles server-side logic, database management, and API integration, powering application functionality and data processing behind user interfaces.</p>
+                            </div>
+                        
+                        </div>
+                        <div class="box skill_4">
+                            <span class="icon">
+                                <i class="fa-solid fa-globe fa-2xl" style="color:  #d42a2a;"></i>
+                            </span>
+                            <div>
+                                <h5>Web Developement</h5>
+                                <p>Web development involves building and maintaining websites, encompassing both frontend design and backend functionality to create seamless user experiences.</p>
+                            </div>
+                        </div>
+                        <div class="box skill_5">
+                            <span class="icon">
+                                <i class="fa-solid fa-camera fa-2xl" style="color:  #d42a2a;"></i>
+                            </span>
+                            <div>
+                                <h5>Photography</h5>
+                                <p>Photography is the art of capturing light and moments, creating visual stories that evoke emotions and preserve memories.</p>
+                            </div>
+                        </div>
+                        <div class="box skill_6">
+                            <span class="icon">
+                                <i class="fa-solid fa-people-roof fa-2xl" style="color:  #d42a2a;"></i>
+                            </span>
+                            <div>
+                                <h5>Freelancing</h5>
+                                <p>Freelancing offers the flexibility to work independently on diverse projects, allowing professionals to choose their clients and set their own schedules.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="navigator">
+                        <a class= "circle" href="#home"></a>
+                        <div class="line"></div>
+                        <a class= "selected circle" href="#skills"></a>
+                        <div class="line"></div>
+                        <a class = "circle" href="#contact"></a>
+                    </div>
+                </div>
+        </section>
+        <section id = "contact" class="section">   
+            <form >
+                <h1>Connect with me.</h1>
+                <input   type="email" placeholder= "Email"> 
+                <input type="text" placeholder= "Message" >
+                <button type="submit">Stay Connected.<span>➤</span> </button>
+            </form>
+            <div class="navigator">
+                <a class= "circle" href="#home"></a>
+                <div class="line"></div>
+                <a class= "circle" href="#skills"></a>
+                <div class="line"></div>
+                <a class = "selected circle" href="#contact"></a>
+            </div>
+        </section>
+        
+    </div>
 </body>
 </html>
