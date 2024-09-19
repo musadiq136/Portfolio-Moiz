@@ -38,7 +38,8 @@ span{
 nav
 {
     display: flex;
-    position: sticky;
+    position:fixed;
+    width: 100vw;
     top:0;
     z-index: 1;
     align-items: center;
@@ -56,7 +57,7 @@ nav ul {
 }
 /* =======================================================HEADER============================================= */
 header{
-    height: calc(100vh - 83px);
+    height: 100vh;
     /* width: 100vw; */
     padding: 1.5rem  6rem;
     background-color: var(--color_bg_primary)   ;
